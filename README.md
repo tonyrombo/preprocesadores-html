@@ -43,3 +43,10 @@ Dentro de los beneficios que nos brinda Jade estan:
 * Y para utilizarlos es:
     * h1 #{array[1]}
     * h3 #{myObject.nombre}
+
+
+##### Referencias
+* http://jade-lang.com/
+* http://frontendlabs.io/70--jade-language-node-template-engine-and-html-preprocessor
+* https://speakerdeck.com/player/f0a8cbd01dce0131047b4ece5468c54b#
+* http://learn.shayhowe.com/advanced-html-css/preprocessors/
