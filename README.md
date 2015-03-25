@@ -130,7 +130,7 @@ case seccion
   when "nosotros"
     div (class = "nosotros")
   default
-    div (class="default")<pre>
+    div (class="default")</pre>
 
 ###MIXINS
 <pre>//declaramos un array
