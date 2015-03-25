@@ -225,3 +225,6 @@ body
 
 INCLUDE
 //layout.jade
+
+
+referencia : http://frontendlabs.io/70--jade-language-node-template-engine-and-html-preprocessor
