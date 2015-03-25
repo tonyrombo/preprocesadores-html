@@ -1,27 +1,27 @@
 #Preprocesadores-html
-Investigacion sobre el preprocesador JADE. Por Laura Gonzales, Josué Solís y Antony Romero.
+##Investigacion sobre el preprocesador JADE. Por Laura Gonzales, Josué Solís y Antony Romero.
 
-¿Que es JADE?
+###¿Que es JADE?
 
 Es un motor de plantillas de alto rendimiento muy influenciado por HAML, ha sido implementado con javascript principalmente para trabajar con nodeJS.
 Adicionalmente es un preprocesador de código HTML.
 
-Pre-Requisitos
+###Pre-Requisitos
 
 Node JS (http://nodejs.org)
 NPM (https://npmjs.org)
 Express JS [opcional] (https://expressjs.com)
 
-Algunas Ventajas
+###Algunas Ventajas
 
 Sangrías - Jade utiliza sangrias en vez de texto para indicar donde empiezan los elementos y los bloques de código.
 Evita Bugs - Si nuestro código tiene errores de indentado o de algún otro tipo, JADE nos mostrará una lista de errores encontrados y no generará ningún documento HTML hasta que se hayan resuelto. Con esto se evitan muchos errores de HTML, como los cierres de etiquetas y otros errores comunes que siempre vemos en el desarrollo de HTML.
 Código Limpio - Da como resultado plantillas m/eas limpias.
 
 
-Comentarios en JADE
+###Comentarios en JADE
 
-//Comentario de una línea.
+<pre>//Comentario de una línea.
 
 //-Comentario de una línea invisible
 
@@ -41,39 +41,39 @@ doctype
 doctype html
 doctype transitional
 doctype strict
-doctype basic
+doctype basic</pre>
 
-Anidamiento
+###Anidamiento
 
-ul
+<pre>ul
   li
     a(href="#")uno
   li
     a(href="#")dos
   li
-    a(href="#")tres
+    a(href="#")tres</pre>
 
 
-Anidamiento con expansión de bloque
+###Anidamiento con expansión de bloque
 
-ul
+<pre>ul
   li:a(href="#")uno
   li:a(href="#")dos
-  li:a(href="#")tres
+  li:a(href="#")tres</pre>
   
-Id's y Clases
+###Id's y Clases
 
-h1#title
+<pre>h1#title
 div.content
 form(action="post/new", name=frmNew, method="post")
   input#txtNombre(type="text" placeholder="Nombre")
   input(id="txtEmail" type="email" placeholder="Email")
   button.btn(type="submit")Enviar
-  button(class="send" type="reset")Reset
+  button(class="send" type="reset")Reset</pre>
   
-Variables
+###Variables
 
-//declaración de variables
+<pre>//declaración de variables
 - titulo = "Paso 3"
 - yo = {}
 - yo.nombre = "Daniel"
@@ -102,11 +102,11 @@ body(class="bodyClasses")
     type="checkbox",
     name="agreement",
     checked
-  )
+  )</pre>
   
-Texto
+###Texto
 
-p Esto es texto de una línea
+<pre>p Esto es texto de una línea
 
 p
   |Esto es
@@ -116,11 +116,11 @@ p
 p.
   Esto también
   es texto
-  multilínea
+  multilínea</pre>
   
-Escaping
+###Escaping
 
-//declaración de variable
+<pre>//declaración de variable
 - saludo = "hola <em>Mundo</em>"
 
 //markup
@@ -131,7 +131,7 @@ ul
   li #{saludo}
   li !{saludo}
 
-p \#{Escapando estos símbolos}
+p \#{Escapando estos símbolos}</pre>
 
 Mejores Características
 
