@@ -209,9 +209,9 @@ block content
       | consectetur adipisicing elit,
       | sed do eiusmod.</pre>      
 
-###APPEND AND PREPREND
-   *append: coloca el bloque despues
-   *append: coloca el bloque antes
+###APPEND AND PREPEND
+   * append: coloca el bloque despues
+   * prepend: coloca el bloque antes 
 <pre>//-layout.jade
 
 doctype html
@@ -230,6 +230,14 @@ extends layout
 
 block append head
    script(src="js.game.js")</pre>
+   
+###TEMPLATE SCRIPTS
+<pre>//- escribimos codigo Jade bajo un script
+//- text/template
+
+script(type="text/template")
+   h1 Lo ves!
+   p Jade tambien trabaja dentro de una plantilla</pre>
    
 ##### Referencias
 * http://jade-lang.com/
