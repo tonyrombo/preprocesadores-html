@@ -59,6 +59,8 @@ p.
   es texto
   multilínea</pre>
 
+<p>hola</p>
+
 ###Escaping
 
 <pre>//declaración de variable
