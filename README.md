@@ -59,20 +59,20 @@ p.
   es texto
   multilínea</pre>
   
-<pre><p>texto en una sola linea</p>
+<pre><p>texto en una sola linea</p></pre>
 
-<p>
+<pre><p>
 	este texto
 	sera
 	multilinea
-</p>
+</p></pre>
 
 <p>
 	este texto
 	tambien es
 	multilinea!
 </p>
-</pre>
+
 
 ###Escaping
 
