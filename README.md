@@ -166,7 +166,7 @@ head
 body
   p lorem ipsum dolor...</pre>
 
-###Includes
+###INCLUDE
 <pre>//-layout.jade
 
 doctype hmtl
@@ -179,6 +179,38 @@ body
    div
       p Lorem ipsum dolor sit amet
    include partials/scripts.jade</pre>
+<pre>//-header.jade
+
+h1 Texto Principal</pre>
+   
+###INHERITANCE
+<pre>//-layout.jade
+//declaracion de variables
+
+-title = "Herencia de plantillas"
+
+//- markup
+
+doctype html
+html
+   head  
+      title Leccion sobre #{title}
+   body
+      block content</pre>
+
+<pre>//-index.jade
+//-heredo la plantilla
+
+extends layout.jade
+
+//-declaro el inicio del contenido del bloque content
+
+block content
+   h1 Index - #{title}
+   p Lorem ipsum sit amet,
+      | consectetur adipisicing elit,
+      | sed do eiusmod.</pre>      
+
 
 ##### Referencias
 * http://jade-lang.com/
