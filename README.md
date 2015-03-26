@@ -58,23 +58,6 @@ p.
   Esto también
   es texto
   multilínea</pre>
-  
-<pre>
-	<p>texto en una sola linea</p>
-</pre>
-
-<pre><p>
-	este texto
-	sera
-	multilinea
-</p></pre>
-
-<p>
-	este texto
-	tambien es
-	multilinea!
-</p>
-
 
 ###Escaping
 
