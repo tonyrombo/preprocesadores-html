@@ -59,6 +59,19 @@ p.
   es texto
   multilínea</pre>
   
+<pre><p>texto en una sola linea</p>
+
+<p>
+	este texto
+	sera
+	multilinea
+</p>
+
+<p>
+	este texto
+	tambien es
+	multilinea!
+</p>
 ###Escaping
 
 <pre>//declaración de variable
