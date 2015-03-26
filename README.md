@@ -166,6 +166,19 @@ head
 body
   p lorem ipsum dolor...</pre>
 
+###Includes
+<pre>//-layout.jade
+
+doctype hmtl
+hmtl(lang="es")
+   include partials/head.jade
+   title Titulo de la página
+   include partials/style.jade
+body
+   include partials/header.jade
+   div
+      p Lorem ipsum dolor sit amet
+   include partials/scripts.jade</pre>
 
 ##### Referencias
 * http://jade-lang.com/
