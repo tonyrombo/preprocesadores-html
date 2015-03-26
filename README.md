@@ -59,7 +59,9 @@ p.
   es texto
   multilínea</pre>
   
-<pre><p>texto en una sola linea</p></pre>
+<pre>
+	<p>texto en una sola linea</p>
+</pre>
 
 <pre><p>
 	este texto
