@@ -59,8 +59,6 @@ p.
   es texto
   multilínea</pre>
 
-<p>hola</p>
-
 ###Escaping
 
 <pre>//declaración de variable
@@ -211,7 +209,28 @@ block content
       | consectetur adipisicing elit,
       | sed do eiusmod.</pre>      
 
+###APPEND AND PREPREND
+   *append: coloca el bloque despues
+   *append: coloca el bloque antes
+<pre>//-layout.jade
 
+doctype html
+html
+   head
+      title Game
+      block head
+         script(src="js/jquery.js")
+      body
+         block content</pre>
+         
+<pre>//-page.jade
+//-extendemos el layout
+
+extends layout
+
+block append head
+   script(src="js.game.js")</pre>
+   
 ##### Referencias
 * http://jade-lang.com/
 * http://frontendlabs.io/70--jade-language-node-template-engine-and-html-preprocessor
