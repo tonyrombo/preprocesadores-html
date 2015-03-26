@@ -72,6 +72,8 @@ p.
 	tambien es
 	multilinea!
 </p>
+</pre>
+
 ###Escaping
 
 <pre>//declaración de variable
